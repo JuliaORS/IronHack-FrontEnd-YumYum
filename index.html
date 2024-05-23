@@ -8,6 +8,7 @@
 	</head>
 	<body>
 		<header>
+			<!-- NAVBAR -->
 			<nav class="nav-bar">
 				<div class="masthead">
 					<img src="images/logo.svg" alt="YUM-YUM Logo">
@@ -18,7 +19,9 @@
 					<a class="cart" href="javascript:void 0;"></a>
 				</div>
 			</nav>
-			<div class="header-blocks">
+
+			<!-- ORDER SECTION -->
+			<div id="order-header-blocks">
 				<section class="placeholder">
 					<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
 				</section>
@@ -30,6 +33,7 @@
 								<img src="images/pin.svg" alt="pin icon">
 								<input type="text" name="a" placeholder="Enter your address"/>
 							</label>
+							<hr>
 							<label class="order-form">
 								<img src="images/bbq.svg" alt="pin icon">
 								<input type="text" name="a" placeholder="What would you like"/>
@@ -40,6 +44,8 @@
 				</section>
 			</div>	
 		</header>
+
+		<!-- HOW IT WORKS SECTION -->
 		<section id="how-it-works">
 			<h2>How it works?</h2>
 			<div class="how-it-works-blocks">
@@ -51,14 +57,14 @@
 					</div>
 				</article>
 				<article>
-					<img src="images/clipboard.png" alt="Music icon">
+					<img src="images/clipboard.png" alt="Clipboard icon">
 					<div>
 						<h4>2. Order</h4>
 						<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
 					</div>
 				</article>
 				<article>
-					<img src="images/bag.png" alt="Music icon">
+					<img src="images/bag.png" alt="Bag icon">
 					<div>
 						<h4>3. Eat</h4>
 						<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
@@ -66,56 +72,65 @@
 				</article>
 			</div>
 		</section>
+
+		<!-- DISHES SECTION -->
 		<section id="dishes">
 	  		<h2>Dishes</h2>
-			<article>
-				<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
-				<div class="info-dish">
-					<h3>Pasta with Lamb Ragù:<br>Coppa, Boston</h3>
-					<p>Christine Quinlan</p>
-					<div class="buy">
-						<p>$ 19.95</p>
-						<button type="submit">Buy Now</button>
-					</div>
-					<div class="ratings">
-						<div class="stars"></div>
-						<button type="submit">1,679 Ratings ></button>
-					</div>
-				</div>
-			</article>
-			<article>
-				<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
-				<div class="info-dish">
-					<h3>Pasta with Lamb Ragù:<br>Coppa, Boston</h3>
-					<p>Christine Quinlan</p>
-					<div class="buy">
-						<p>$ 5.99</p>
-						<button type="submit">Buy Now</button>
-					</div>
-					<div class="ratings">
-						<div class="stars"></div>
-						<button type="submit">12 Ratings ></button>
-					</div>
-				</div>
-			</article>
-			<article>
-				<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
-				<div class="info-dish">
-					<h3>Pork Rillette Hand Pies:<br>Olympic Provisions; Portland, OR</h3>
-					<p>Joey Pepperoni's Pizza</p>
-					<div class="buy">
-						<p>$ 10.80</p>
-						<button type="submit">Buy Now</button>
-					</div>
-					<div class="ratings">
-						<div class="stars"></div>
-						<button type="submit">33 Ratings ></button>
-					</div>
-				</div>
-			</article>
+			<div class="dishes-blocks">
+				<article>
+					<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
+					<section class="info-dish">
+						<h3>Pasta with Lamb Ragù:<br>Coppa, Boston</h3>
+						<p>Christine Quinlan</p>
+						<div class="buy">
+							<p>$ 19.95</p>
+							<button type="submit">Buy Now</button>
+						</div>
+						<hr>
+						<aside class="ratings">
+							<div class="stars"></div>
+							<button type="submit">1,679 Ratings ></button>
+						</aside>
+					</section>
+				</article>
+				<article>
+					<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
+					<section class="info-dish">
+						<h3>Pasta with Lamb Ragù:<br>Coppa, Boston</h3>
+						<p>Christine Quinlan</p>
+						<div class="buy">
+							<p>$ 5.99</p>
+							<button type="submit">Buy Now</button>
+						</div>
+						<hr>
+						<aside class="ratings">
+							<div class="stars"></div>
+							<button type="submit">12 Ratings ></button>
+						</aside>
+					</section>
+				</article>
+				<article>
+					<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
+					<section class="info-dish">
+						<h3>Pork Rillette Hand Pies:<br>Olympic Provisions; Portland, OR</h3>
+						<p>Joey Pepperoni's Pizza</p>
+						<div class="buy">
+							<p>$ 10.80</p>
+							<button type="submit">Buy Now</button>
+						</div>
+						<hr>
+						<aside class="ratings">
+							<div class="stars"></div>
+							<button type="submit">33 Ratings ></button>
+						</aside>
+					</section>
+				</article>
+			</div>
 		</section>
+
+		<!-- EXTRAS SECTION -->
 		<aside id="extras">
-			<div class="extras-div">
+		
 				<article>
 					<div class="img-back">
 						<img src="images/phone.svg" alt="Chicken icon">
@@ -130,8 +145,6 @@
 					<h4>12 000+ Menus</h4>
 					<p>Discovery new places — order your usual and throw away those paper</p>
 				</article>
-			</div>
-			<div class="extras-div">
 				<article>
 					<div class="img-back">
 						<img src="images/percent.svg" alt="Percent icon">
@@ -146,122 +159,137 @@
 					<h4>Anytime, Anywhere</h4>
 					<p>On-the-go? Che out our conveniant apps for iOS and Android</p>
 				</article>
-			</div>
 		</aside>
+
+		<!-- CUISINE SECTION -->
 		<section id="cuisine">
 			<h2>Restaurant by Cuisine</h2>
-			<article>
-				<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
-				<div class="info-restaurant">
-					<h3>A La Carte</h3>
-					<p>189 dishes</p>
-				</div>
-			</article>
-			<article>
-				<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
-				<div class="info-restaurant">
-					<h3>Fast Food</h3>
-					<p>J3,750 dishes</p>
-				</div>
-			</article>
-			<article>
-				<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
-				<div class="info-restaurant">
-					<h3>Italian</h3>
-					<p>708 dishes</p>
-				</div>
-			</article>
-		</section>  
+			<div class="cuisine-blocks">
+				<article>
+					<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
+					<div class="info-restaurant">
+						<h3>A La Carte</h3>
+						<p>189 dishes</p>
+					</div>
+				</article>
+				<article>
+					<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
+					<div class="info-restaurant">
+						<h3>Fast Food</h3>
+						<p>J3,750 dishes</p>
+					</div>
+				</article>
+				<article>
+					<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
+					<div class="info-restaurant">
+						<h3>Italian</h3>
+						<p>708 dishes</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!-- BANNER SECTION -->
 		<section id="banner">
 			<div>
 				<h2>banner from hezy theme</h2>
 			</div>
 		</section>
+
+		<!-- RESTAURANT SECTION -->
 		<section id="restaurant">
 			<h2>Featured Restaurant</h2>
-			<article>
-				<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
-				<div class="menu-restaurant">
-					<h3>Acquerello</h3>
-					<p>Italian</p>
-					<div class="view-menu">
-						<button type="submit">View menu</button>
-						<button type="submit">Buy Now</button>
+			<div class="restaurant-blocks">
+				<article>
+					<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
+					<div class="menu-restaurant">
+						<h3>Acquerello</h3>
+						<p>Italian</p>
+						<div class="view-menu">
+							<button type="submit">View menu</button>
+							<button type="submit">Buy Now</button>
+						</div>
+						<hr>
+						<div class="reviews">
+							<div class="stars"></div>
+							<button type="submit">31 Reviews></button>
+						</div>
 					</div>
-					<div class="reviews">
-						<div class="stars"></div>
-						<button type="submit">31 Reviews></button>
+				</article>
+				<article>
+					<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
+					<div class="menu-restaurant">
+						<h3>Addision at The Grand Del Mar</h3>
+						<p>Contemporary French</p>
+						<div class="view-menu">
+							<button type="submit">View menu</button>
+							<button type="submit">Buy Now</button>
+						</div>
+						<hr>
+						<div class="reviews">
+							<div class="stars"></div>
+							<button type="submit">419 Reviews ></button>
+						</div>
 					</div>
-				</div>
-			</article>
-			<article>
-				<img src="https://via.placeholder.com/40/cccccc/cccccc" alt="Placeholder Image">
-				<div class="menu-restaurant">
-					<h3>Addision at The Grand Del Mar</h3>
-					<p>Contemporary French</p>
-					<div class="view-menu">
-						<button type="submit">View menu</button>
-						<button type="submit">Buy Now</button>
-					</div>
-					<div class="reviews">
-						<div class="stars"></div>
-						<button type="submit">419 Reviews ></button>
-					</div>
-				</div>
-			</article>
+				</article>
+			</div>
 		</section>
+
+		<!-- FOOTER -->
 		<footer id="footer">
-	  		<article>
-				<h4>Get to know us</h4>
-				<nav>
-					<ul>
-						<li>About AlaCartee</li>
-						<li>How Our Ordering Works</li>
-						<li>Blog</li>
-						<li>Press</li>
-					  </ul>
-				</nav>
-			</article>
-			<article>
-				<h4>Business Solutions</h4>
-				<nav>
-					<ul>
-						<li>Join Our Restaurant</li>
-						<li>Network</li>
-						<li>Company Accounts</li>
-					  </ul>
-				</nav>
-			</article>
-			<article>
-				<h4>Social</h4>
-				<nav>
-					<ul>
-						<li>Facebook</li>
-						<li>Twitter</li>
-						<li>Pinterest</li>
-					  </ul>
-				</nav>
-			</article>
-			<article>
-				<h4>Contact Us</h4>
-				<nav>
-					<ul>
-						<li>Facebook</li>
-						<li>Help</li>
-						<li>Suggev</li>
-					  </ul>
-				</nav>
-			</article>
-			<article class="yumyum-info">
-				<p>© 2014 Yum Yum. With love by HezyTheme</p>
+			<div class="footer-info">
+				<article>
+					<h4>Get to know us</h4>
+					<nav>
+						<ul>
+							<li>About AlaCartee</li>
+							<li>How Our Ordering Works</li>
+							<li>Blog</li>
+							<li>Press</li>
+						</ul>
+					</nav>
+				</article>
+				<article>
+					<h4>Business Solutions</h4>
+					<nav>
+						<ul>
+							<li>Join Our Restaurant</li>
+							<li>Network</li>
+							<li>Company Accounts</li>
+						</ul>
+					</nav>
+				</article>
+				<article>
+					<h4>Social</h4>
+					<nav>
+						<ul>
+							<li>Facebook</li>
+							<li>Twitter</li>
+							<li>Pinterest</li>
+						</ul>
+					</nav>
+				</article>
+				<article>
+					<h4>Contact Us</h4>
+					<nav>
+						<ul>
+							<li>Facebook</li>
+							<li>Help</li>
+							<li>Suggev</li>
+						</ul>
+					</nav>
+				</article>
+			</div>
+			<div class="yumyum-info">
+				<p>© 2014 Yum Yum. With love by <span class="color-brand">HezyTheme</span></p>
 				<nav>
 					<ul>
 						<li>Terms</li>
 						<li>Privacy</li>
 						<li>Contact Us</li>
-					  </ul>
+					</ul>
 				</nav> 
-			</article>
+			</div>
 		</footer>
 	</body>
 </html>
